@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-20T13:50:07Z" name="Default suite" finished-at="2019-08-20T13:50:07Z" duration-ms="170">
+    <groups>
+      <group name="my">
+        <method signature="TestCase.div()[pri:4, instance:com.calculator.TestCase@5d740a0f]" name="div" class="com.calculator.TestCase"/>
+        <method signature="TestCase.mul()[pri:2, instance:com.calculator.TestCase@5d740a0f]" name="mul" class="com.calculator.TestCase"/>
+      </group> <!-- my -->
+      <group name="cal">
+        <method signature="TestCase.add()[pri:0, instance:com.calculator.TestCase@5d740a0f]" name="add" class="com.calculator.TestCase"/>
+        <method signature="TestCase.sub()[pri:1, instance:com.calculator.TestCase@5d740a0f]" name="sub" class="com.calculator.TestCase"/>
+      </group> <!-- cal -->
+    </groups>
+    <test started-at="2019-08-20T13:50:07Z" name="Default test" finished-at="2019-08-20T13:50:07Z" duration-ms="170">
+      <class name="com.calculator.TestCase">
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="beforemethod" finished-at="2019-08-20T13:50:07Z" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.add()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="add()[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="add" finished-at="2019-08-20T13:50:07Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method signature="sub()[pri:1, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="sub" finished-at="2019-08-20T13:50:07Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method is-config="true" signature="aftermethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="aftermethod" finished-at="2019-08-20T13:50:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.add()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="beforemethod" finished-at="2019-08-20T13:50:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.sub()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="aftermethod" finished-at="2019-08-20T13:50:07Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.sub()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="mul()[pri:2, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="mul" finished-at="2019-08-20T13:50:07Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="beforemethod" finished-at="2019-08-20T13:50:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.mul()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="aftermethod" finished-at="2019-08-20T13:50:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.mul()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="beforemethod" finished-at="2019-08-20T13:50:07Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.div()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="div()[pri:4, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="div" finished-at="2019-08-20T13:50:07Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method is-config="true" signature="aftermethod(java.lang.reflect.Method)[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="aftermethod" finished-at="2019-08-20T13:50:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.TestCase.div()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.calculator.TestCase@5d740a0f]" started-at="2019-08-20T13:50:07Z" name="test" finished-at="2019-08-20T13:50:07Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.calculator.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
